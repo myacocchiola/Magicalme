@@ -1,0 +1,88 @@
+body {
+	 background-color: #FFC0CB;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+	 margin: 1rem auto;
+	 max-width: 100rem;
+}
+ h1 {
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 7rem;
+   color: #C71585;
+   font-family: 'Croissant One', cursive;
+   font-weight: 100;
+}
+h2{
+  color: #4B0082;
+  font-family: Futura;
+  font-family: 'Croissant One', cursive;
+  text-align: center;
+  font-size: 3rem;
+}
+h3{
+  color: #4B0082;
+  font-family: Futura;
+  font-family: 'Croissant One', cursive;
+  text-align: left;
+  font-size: 1.5rem;
+}
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.plane {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2708.png) 36 36, auto;
+}
+
+.dog {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f415.png) 36 36, auto;
+}
+
+.grad {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f393.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+  }
+
+.tooltiptext{
+  
+  visibility: hidden; 
+}
+
+.italy:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext{
+  visibility: hidden; 
+    top: -27px;
+  right: 100px;
+  padding: 5px 0;
+  position: absolute;
+}
+
+.dogs:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext{
+  visibility: hidden; 
+}
+
+.speech:hover .tooltiptext {
+  visibility: visible;
+}
+
+figure{
+  position: sticky; 
+}
+
+figure {
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  poisiton: sticky;
+  margin: 3rem;
+}
