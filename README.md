@@ -1,1 +1,1 @@
-# MagicalMe
+# Magicalme
